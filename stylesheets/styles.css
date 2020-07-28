@@ -102,7 +102,7 @@ footer {
 }
 
 /* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 1242px){
   h1 {
     font-size: 40px;
   }
