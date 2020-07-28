@@ -1,0 +1,114 @@
+body {
+  color: #FFFFFF;
+  background-color: #282C34;
+  font-family: 'IBM Plex Sans';
+  /*font-family: 'Rubik';*/
+  font-size: 48px;
+  padding-left: 4em;
+  padding-top: 2em;
+
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  font-family: 'IBM Plex Sans';
+}
+
+
+#main-content {
+  position: relative;
+  width: 50%;
+}
+
+#background-img {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 1500px;
+}
+
+a {
+  color: #24C1E0;
+  text-decoration: none;
+}
+
+
+footer {
+    font-size: 36px;
+    left: 0
+    bottom: 0;
+    position: fixed;
+    margin-top: 36px;
+}
+
+.fa {
+  margin-right: 16px;
+}
+
+
+@media screen and (max-width: 1792px){
+  #main-content {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1608px){
+  body {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1060px){
+  h1 {
+    font-size: 50px;
+  }
+  body {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 860px){
+  #main-content {
+    width: 100%;
+    font-size: 36px;
+  }
+  body {
+    padding: 2em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  #main-content {
+    width: 100%;
+    font-size: 36px;
+  }
+  body {
+
+  }
+}
+
+@media screen and (max-width: 624px){
+  h1 {
+    font-size: 50px;
+  }
+  #main-content {
+    font-size: 28px;
+  }
+  body{
+    padding: 1.5em;
+  }
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
+@media only screen and (max-width: 479px){
+  h1 {
+    font-size: 50px;
+  }
+  #main-content {
+    font-size: 28px;
+  }
+  body{
+    padding: 1.5em;
+  }
+}
