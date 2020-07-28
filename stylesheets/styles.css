@@ -19,6 +19,7 @@ h1 {
 #main-content {
   position: relative;
   width: 50%;
+  background-color: #282C34;
 }
 
 #background-img {
