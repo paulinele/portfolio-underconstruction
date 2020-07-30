@@ -3,10 +3,9 @@ body {
   background-color: #282C34;
   font-family: 'IBM Plex Sans';
   /*font-family: 'Rubik';*/
-  font-size: 48px;
+  font-size: 40px;
   padding-left: 4em;
   padding-top: 2em;
-
 }
 
 h1 {
@@ -17,16 +16,17 @@ h1 {
 
 
 #main-content {
-  position: relative;
   width: 50%;
+  margin-bottom: 50px;
   background-color: #282C34;
 }
 
 #background-img {
-  position: fixed;
   bottom: 0;
   right: 0;
   width: 1500px;
+  position: fixed;
+  z-index: -5;
 }
 
 a {
@@ -72,17 +72,17 @@ footer {
 @media screen and (max-width: 860px){
   #main-content {
     width: 100%;
-    font-size: 36px;
+    font-size: 32px;
   }
   body {
     padding: 2em;
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 790px){
   #main-content {
     width: 100%;
-    font-size: 36px;
+    font-size: 30px;
   }
   body {
 
@@ -102,9 +102,9 @@ footer {
 }
 
 /* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 570px){
   h1 {
-    font-size: 40px;
+    font-size: 50px;
   }
   #main-content {
     font-size: 24px;
@@ -112,7 +112,7 @@ footer {
   body{
     padding: 1em;
   }
-  /*#background-img {
-  width: 500px;*/
-}
+  #background-img {
+    width: 1000px;
+  }
 }
