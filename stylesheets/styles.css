@@ -14,7 +14,8 @@ body {
 h1 {
   font-weight: 700;
   font-size: 72px;
-  font-family: 'IBM Plex Sans';
+  /*font-family: 'IBM Plex Sans';*/
+  font-family: 'Futura';
 }
 
 
